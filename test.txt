@@ -2,5 +2,6 @@
 1. 未被追踪的文件：git status
 2. 追踪文件：git test.txt
 3. 提交文件：git commit -m "测试git基本操作"
-4. 推送到远程仓库： git pull
+4. 推送到远程仓库： git pull 合并冲突.
+
 
