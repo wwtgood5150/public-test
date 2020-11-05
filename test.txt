@@ -1,6 +1,17 @@
 测试Git的基本操作：
 1. 未被追踪的文件：git status
-2. 追踪文件：git test.txt
+2. 追踪文件：git add 文件名
 3. 提交文件：git commit -m "测试git基本操作"
 4. 推送到远程仓库： git pull
-
+5. 拷贝副本到本地： git clone 
+6. 查看本地所有分支：git branch
+7. 查看所有的远程分支： git branch -a
+8. 创建分支：git checkout branch00
+9. 将分支推送到远程： git push --set-upstream origin branch00
+10. 删除本地分支： git branch -d 本地分支名
+11. 删除远程分支： git branch -r -d origin/远程分支名
+12.                git push origin ：远程分支名
+13. 合并分支： git merge 分支名 合并是合并到主分支，需要切换到主分支
+14. 解决合并冲突：手动删除生成的提示符
+15. 查看所有的版本号：git reflog
+16. 版本操作：模拟分支合并冲突
